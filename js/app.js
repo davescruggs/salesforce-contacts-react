@@ -150,6 +150,10 @@ var App = React.createClass({
         router.addRoute('contacts/:id', function(id) {
             this.slidePage(<ContactPage key="details" contactId={id} service={contactService}/>);
         }.bind(this));
+        force.init({
+            proxyURL: 'https://fathomless-crag-41292.herokuapp.com/'
+        });
+        
         force.login(
             function() {
                 console.log('Salesforce login succeeded');
