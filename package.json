@@ -1,0 +1,25 @@
+{
+  "name": "salesforce-contacts-react",
+  "version": "1.0.0",
+  "description": "A simple force-server project for ReactJS that shows Contacts",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davescruggs/salesforce-contacts-react.git"
+  },
+  "keywords": [
+    "salesforce",
+    "react",
+    "contacts",
+    "cors"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davescruggs/salesforce-contacts-react/issues"
+  },
+  "homepage": "https://github.com/davescruggs/salesforce-contacts-react#readme"
+}
